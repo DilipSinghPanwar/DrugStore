@@ -1,0 +1,122 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Basic Margin Padding-->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_huge">64dp</dimen>
+
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_xlarge">20sp</dimen>
+    <dimen name="text_xxlarge">22sp</dimen>
+    <dimen name="text_xxxlarge">24sp</dimen>
+
+    <!-- padding-->
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_6">6dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_24">24dp</dimen>
+    <dimen name="padding_32">32dp</dimen>
+    <!--margins-->
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_44">44dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <!--text-->
+    <dimen name="text_8">8sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_28">28sp</dimen>
+
+
+    <!--divider height-->
+    <dimen name="divider_small">0.5dp</dimen>
+    <dimen name="divider_medium">1dp</dimen>
+
+
+    <!--Splash Screen start-->
+    <dimen name="SplashImgWidth">250dp</dimen>
+    <dimen name="SplashImgheight">180dp</dimen>
+    <dimen name="SplashLoadingTextSize">16sp</dimen>
+    <!--Splash Screen end-->
+
+    <!--Login Screen start-->
+    <dimen name="LoginImgWidth">250dp</dimen>
+    <dimen name="LoginImgHeight">80dp</dimen>
+    <dimen name="LoginEditTextPadding">5dp</dimen>
+    <dimen name="LoginEditTextLeftDrawablePadding">10dp</dimen>
+    <dimen name="LoginBtnHeight">40dp</dimen>
+    <dimen name="LoginMargionTop">15dp</dimen>
+    <dimen name="LoginMainLayoutPadding">20dp</dimen>
+    <dimen name="LoginLogoMarginTop">15dp</dimen>
+    <dimen name="LoginEditTextLayoutMarginBottom">5dp</dimen>
+    <dimen name="LoginViewMarginLeft">15dp</dimen>
+    <dimen name="LoginViewMarginRight">10dp</dimen>
+
+    <!--Login Screen end-->
+
+    <dimen name="LoginButtonHeight">40dp</dimen>
+    <dimen name="LoginPaddingButton">10dp</dimen>
+    <dimen name="EditTextPadding">10dp</dimen>
+    <dimen name="EditTextBorderPadding">7dp</dimen>
+    <dimen name="EditTextLeftDrawablePadding">20dp</dimen>
+    <dimen name="LoginCenterImg">120dp</dimen>
+    <dimen name="ProfileImgRegistration">100dp</dimen>
+    <dimen name="ProfileUploadHeight">70dp</dimen>
+    <dimen name="LoginBrnMargionLeft">40dp</dimen>
+    <dimen name="LoginBrnMargionRight">40dp</dimen>
+    <dimen name="LoginMargionTopBtn">10dp</dimen>
+    <dimen name="TextViewPadding">5dp</dimen>
+    <dimen name="SignUpMargionTop">80dp</dimen>
+    <dimen name="SplashImgHeigh">140dp</dimen>
+    <dimen name="logFooterImg">35dp</dimen>
+    <dimen name="LoginViewHeight">37dp</dimen>
+    <dimen name="RegisterEditTextFontSize">13sp</dimen>
+
+    <dimen name="RegisterEditTextLayoutMarginBottom">5dp</dimen>
+    <dimen name="RegisterEditTextPadding">7dp</dimen>
+    <dimen name="RegisterinMargionTop">25dp</dimen>
+    <dimen name="RegisterBtnHeight">40dp</dimen>
+    <dimen name="RegistrationViewHeight">1dp</dimen>
+
+    <dimen name="dialogHeight">50dp</dimen>
+    <dimen name="loginLanguageImgHeight">60dp</dimen>
+    <dimen name="loginLanguageImgWidth">50dp</dimen>
+
+
+    <dimen name="CloseImgHeight">30dp</dimen>
+
+    <dimen name="BannerHeight">200dp</dimen>
+    <dimen name="home_category_row_height">150dp</dimen>
+    <dimen name="CategoryFragmentItemImgHeight">60dp</dimen>
+</resources>

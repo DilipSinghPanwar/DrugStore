@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Drugstore</string>
+
+    <!--bottom tabs names-->
+    <string name="title_home">Home</string>
+    <string name="title_auction">Auction</string>
+    <string name="title_category">Category</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_settings">Settings</string>
+    <string name="backCountMsg">Press Back again to exit.</string>
+
+    <!--splash activity-->
+    <string name="SplashLoadingOneDotText">Connecting.</string>
+    <string name="SplashLoadingTwoDotText">Connecting..</string>
+    <string name="SplashLoadingThreeDotText">Connecting...</string>
+    <string name="SplashLoadingFourDotText">Connecting....</string>
+    <!--<string name="SplashLoadingOneDotText">Connecting to Drugstore.</string>
+    <string name="SplashLoadingTwoDotText">Connecting to Drugstore..</string>
+    <string name="SplashLoadingThreeDotText">Connecting to Drugstore...</string>
+    <string name="SplashLoadingFourDotText">Connecting to Drugstore....</string>-->
+
+    <!--setting screen-->
+    <string name="OrderHistory">Order History</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="Notifiicaiton">Notification</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="AboutUs">About Us</string>
+    <string name="TermCondition">Terms &amp; Conditions</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="ContactUs">Contact Us</string>
+
+    <!--toolbar titles-->
+    <string name="ttAboutRestaurent">About</string>
+    <string name="ttAbout">About us</string>
+    <string name="ttProductDetail">Product Detail</string>
+    <string name="ttViewOrder">View Order</string>
+    <string name="ttResetPass">Reset Password</string>
+    <string name="ttMyProfile">My Profile</string>
+    <string name="ttOrderHistory">Order History</string>
+    <string name="ttCartDetails">Cart Details</string>
+    <string name="ttContact">Contact</string>
+    <string name="ttNotification">Notifications</string>
+    <string name="ttSettings">Settings</string>
+    <string name="ttChangepass">Change Password</string>
+    <string name="ttTermscondition">Terms &amp; Conditions</string>
+    <string name="ttUserprofile">Profile</string>
+    <string name="ttPrivacyPolicy">Privacy Policy</string>
+
+
+    <!--application message-->
+    <string name="networkError">Network Error</string>
+    <string name="internetOff">Unable to connect. Please check your Internet Connection &amp; try again later.</string>
+    <string name="serverError">Server Error</string>
+    <string name="serverDown">Temporarily out of service. Please try again later.</string>
+
+    <!--login -->
+    <string name="LoginBtnText">Login</string>
+    <string name="LoginBtnTextForSignUp">Sign up</string>
+    <string name="LoginClear">CLEAR</string>
+    <string name="LoginForgotPasswordText">Forgot Password?</string>
+    <string name="LoginNoAccount">Dont &#699;t have an Account ? </string>
+    <string name="LoginEmailTextName">Email</string>
+    <string name="LoginEmailAddTextName">Email Address</string>
+    <string name="LoginPasswordTextName">Password</string>
+    <string name="ChangeasswordOld">Old Password</string>
+    <string name="ChangePasswordNew">New Password</string>
+    <string name="ChangePasswordConfirm">Old Password</string>
+
+    <string name="LoginFailedMsg">Unable to Login. Please try again</string>
+
+    <string name="LoginUserNameTxt">Please enter email</string>
+    <string name="LoginUserNameWithEmailTxt">Please enter email</string>
+    <string name="LoginPasswordTxt">Please enter password</string>
+
+    <!--login -->
+    <string name="ForgetPasswordTxt">Forgot Password</string>
+    <string name="ChangePasswordToolbar">Change Password</string>
+    <string name="AlreadyHaveAccount">Already have an account?</string>
+
+    <!-- registration -->
+    <string name="AllFieldMenditatory">*All Fields are mandatory</string>
+    <string name="RegisterUserName">User Name</string>
+    <string name="RegisterFirstTextName">First Name</string>
+    <string name="RegisterLastTextName">Last Name</string>
+    <string name="RegisterUserTextName">Email Address</string>
+    <string name="RegisterPasswordTextName">Password</string>
+    <string name="RegisterConfirmPasswordTextName">Confirm Password</string>
+    <string name="OldPasswordTextName">Old Password</string>
+    <string name="NewPasswordTextName">New Password</string>
+    <string name="RegisterCountryTextName">Country</string>
+    <string name="RegisterDepartmentTextName">Department</string>
+    <string name="RegisterSingUpBtnTextName">Sign up</string>
+    <string name="RegisterAlreayAccTextName">Already have an account | LOG IN</string>
+
+    <string name="RegisterEmptyFirstName">Please enter First Name</string>
+    <string name="RegisterEmptyLastName">Please enter Last Name</string>
+    <string name="RegisterEmptyEmail">Please enter email</string>
+    <string name="RegisterInvalidEmail">Please enter valid email</string>
+    <string name="RegisterEmptyPassword">Please enter password</string>
+    <string name="RegisterPasswordMinimumLength">Password Min length 5 characters </string>
+    <string name="RegisterEmptyConfirmPassword">Please enter password again</string>
+    <string name="RegisterPasswordMisMatch">Password mismatch</string>
+    <string name="PasswordNew">Please enter new password</string>
+    <string name="PasswordConfirm">Please enter confirm password</string>
+    <string name="PasswordOld">Please enter old password</string>
+    <string name="OTPText">Please enter OTP</string>
+
+
+    <string name="RegistrationFailedTitle">Failed</string>
+    <string name="RegistrationFailedMsg">Unable to register. Please try again</string>
+    <string name="RegisterSuccessfulTitle">Registered successfully</string>
+    <string name="RegistrationSuccessfulMsg">Congratulations! You registered successfully.</string>
+
+    <string name="InternetErrorMsg">Please check your Internet connection.</string>
+    <string name="VolleyErrorMsg">Something went wrong.please try again after some time.</string>
+    <string name="ErrorMsg">Something went wrong. Please try again after some time.</string>
+    <string name="WakeUpInternetConnectionMsg">Wake up your Connection!</string>
+    <string name="ServerIntenetMsg">Your internet seems too slow to reach our server</string>
+    <string name="TryAgainTxt">Try Again</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ResetText">Done</string>
+    <string name="CancelText">Cancel</string>
+    <string name="ForgotText">Forgot Password</string>
+    <string name="ForgotTextMsg">Enter your email address and we will send you a link to reset your password</string>
+
+    <string name="NoInternetTitleStr">NO RESULT</string>
+    <string name="NoInternetDescOneStr">Wake up  your Connection !</string>
+    <string name="NoInternetDescTwoStr">Your internet seems too slow to reach our server</string>
+    <string name="NoInternetButtonStr">TRY AGAIN</string>
+
+    <string name="SelectCategoryTxt">Select the category</string>
+    <string name="Home_No_Category_List">There is no category, Try again</string>
+    <string name="WelcomeTxt">Welcome</string>
+
+    <string name="ForgetErrorMsg">Unable to send email,please cheak after some time.</string>
+    <string name="ResetTextMsg">Reset Password</string>
+
+    <string name="ResetPasswordText">Enter a new Password for your account.</string>
+
+    <string name="RegisterCountry">Country</string>
+    <string name="RegisterState">State</string>
+    <string name="RegisterCity">City</string>
+
+
+    <!--dashboard screen-->
+    <string name="Top5">Top 5 purchased items</string>
+    <string name="PreviousParticipations">Previous participations in Auctions</string>
+    <string name="Purchaseditems">Purchased items</string>
+    <string name="WinningAuctions">Winning Auctions</string>
+    <string name="PurchasedBefore">Purchased Before</string>
+
+
+    <!--change password-->
+    <!--change password-->
+    <string name="etHintCurrentPassword">Current Password</string>
+    <string name="etErrorCorrentPassword">Enter correct password</string>
+    <string name="etHintNewPassword">New Password</string>
+    <string name="etHintConfirmPassword">Confirm Password</string>
+    <string name="etErrorConfirmPassword">Enter correct Confirm Password</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.bluemortar.customui.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_4"
+        android:text="Category One"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_14" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvCategoryOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_4"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_4"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.bluemortar.customui.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:text="Category Two"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_14" />
+
+            <com.bluemortar.customui.CustomTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/rectangle_black_bordor"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_4"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingRight="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_4"
+                android:text="View more"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvCategoryTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="none" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_4"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.bluemortar.customui.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="Category Three"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_14" />
+
+        <com.bluemortar.customui.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@drawable/rectangle_black_bordor"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_4"
+            android:paddingLeft="@dimen/padding_8"
+            android:paddingRight="@dimen/padding_8"
+            android:paddingTop="@dimen/padding_4"
+            android:text="View more"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_14" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvCategoryThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="none" />
+
+
+</LinearLayout>

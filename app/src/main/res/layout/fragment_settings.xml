@@ -1,0 +1,296 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llOrderHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_editprofile" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/OrderHistory"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+
+            <LinearLayout
+                android:id="@+id/llEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_editprofile" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/EditProfile"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_notifications" />
+
+                <com.bluemortar.customui.CustomTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/Notifiicaiton"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+
+                <Switch
+                    android:id="@+id/switchOnOff"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingRight="@dimen/padding_16" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_changepwd" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/ChangePassword"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_aboutus" />
+
+                <com.bluemortar.customui.CustomTextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/AboutUs"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llTermCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_termsconditions" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/TermCondition"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llPrivacyPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_privacypolicy" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/PrivacyPolicy"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_4"
+                    android:src="@drawable/ic_contactus" />
+
+                <com.bluemortar.customui.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_4"
+                    android:gravity="center_vertical"
+                    android:text="@string/ContactUs"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_small"
+                android:background="@color/colorGreyDivider" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

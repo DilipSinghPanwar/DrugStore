@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/llContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_8">
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etUpdateFullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM "
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="textCapSentences"
+                        android:maxLength="100"
+                        android:maxLines="1"
+                        android:nextFocusDown="@+id/etAddress"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etUpdateEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@null"
+                        
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="30"
+                        android:maxLines="1"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etMobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@null"
+                        android:digits="0123456789"
+                        
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="textCapSentences"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etUpdateAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@null"
+                        
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="textCapSentences"
+                        android:maxLength="56"
+                        android:nextFocusUp="@+id/etUpdateFullName"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etUpdateCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@null"
+                        
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="textCapSentences"
+                        android:maxLength="56"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+
+                    <com.bluemortar.customui.CustomEditText
+                        android:id="@+id/etUpdatePostCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:background="@null"
+                        
+                        android:drawablePadding="@dimen/padding_8"
+                        android:hint="@string/app_name"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:paddingTop="@dimen/padding_4"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

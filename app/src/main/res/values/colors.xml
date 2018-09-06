@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D54293</color>
+    <color name="colorPrimaryDark">#D54293</color>
+    <color name="colorAccent">#D54293</color>
+
+    <color name="colorGreyDivider">#a19c9f</color>
+    <color name="colorPinkDivider">#D54293</color>
+
+    <!--Splash activity start-->
+    <color name="splashLoadingTextColor">#000000</color>
+    <color name="LoginHintColor">#000000</color>
+    <color name="RegisterEditTextColor">#000000</color>
+    <!--Splash activity end-->
+
+    <!--Login activity start-->
+    <color name="ViewBGColor">#000000</color>
+    <color name="ViewGreyColor">#000000</color>
+    <color name="SplashHeaderTxtColor">#FF69B6</color>
+    <color name="CategoryGridItemBg">#343434</color>
+    <color name="CategoryGridItemNormal">#FF69B6</color>
+</resources>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/app_toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner_two" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Product Name :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Lorem Ipsum"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Price :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="$ 255.85"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Product Description :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. "
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Seller Name :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Lorem Ipsum"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Stock :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="@string/app_name"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Start Date :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="10-12-2018"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="End Date :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="30-12-2018"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_8"
+                    android:weightSum="1">
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:paddingRight="@dimen/padding_8"
+                        android:text="No. of Bidding on that Auction :"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="bold" />
+
+                    <com.bluemortar.customui.CustomTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="51"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/text_14"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/divider_small"
+                    android:background="@color/colorGreyDivider" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/ic_splash_bg"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivSplashlogo"
+        android:layout_width="@dimen/SplashImgWidth"
+        android:layout_height="@dimen/SplashImgheight"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_logo"
+        tools:ignore="ContentDescription" />
+
+    <com.bluemortar.customui.CustomTextView
+        android:id="@+id/tvConnectingTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivSplashlogo"
+        android:gravity="center"
+        android:text="@string/SplashLoadingOneDotText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/SplashLoadingTextSize" />
+
+</RelativeLayout>
